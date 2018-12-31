@@ -1,8 +1,9 @@
 #include <uWS/uWS.h>
 #include <iostream>
 #include "json.hpp"
-#include "PID.h"
+#include "PIDController.h"
 #include <math.h>
+#include <fstream>
 
 // for convenience
 using json = nlohmann::json;
@@ -17,8 +18,8 @@ double rad2deg(double x) { return x * 180 / pi(); }
 // else the empty string "" will be returned.
 std::string hasData(std::string s) {
   auto found_null = s.find("null");
-  auto b1 = s.find_first_of("[");
-  auto b2 = s.find_last_of("]");
+  auto b1 = s.find_first_of('[');
+  auto b2 = s.find_last_of(']');
   if (found_null != std::string::npos) {
     return "";
   }
@@ -31,18 +32,23 @@ std::string hasData(std::string s) {
 int main()
 {
   uWS::Hub h;
+  long step = 0;
 
-  PID pid;
-  // TODO: Initialize the pid variable.
+//  PController controller;
+//  PDController controller;
+  PIDController controller;
+  // TODO: Initialize the controller variable.
+  controller.Init(0.2, 0.00004, 3.0);
 
-  h.onMessage([&pid](uWS::WebSocket<uWS::SERVER> ws, char *data, size_t length, uWS::OpCode opCode) {
+  h.onMessage([&controller, &step](uWS::WebSocket<uWS::SERVER> ws, char *data, size_t length, uWS::OpCode opCode) {
     // "42" at the start of the message means there's a websocket message event.
     // The 4 signifies a websocket message
     // The 2 signifies a websocket event
-    if (length && length > 2 && data[0] == '4' && data[1] == '2')
+
+    if (length > 2 && data[0] == '4' && data[1] == '2')
     {
       auto s = hasData(std::string(data).substr(0, length));
-      if (s != "") {
+      if (!s.empty()) {
         auto j = json::parse(s);
         std::string event = j[0].get<std::string>();
         if (event == "telemetry") {
@@ -55,11 +61,20 @@ int main()
           * TODO: Calcuate steering value here, remember the steering value is
           * [-1, 1].
           * NOTE: Feel free to play around with the throttle and speed. Maybe use
-          * another PID controller to control the speed!
+          * another PController controller to control the speed!
           */
+          controller.UpdateError(cte);
+          steer_value = controller.UpdateSteer();
           
           // DEBUG
-          std::cout << "CTE: " << cte << " Steering Value: " << steer_value << std::endl;
+          std::cout << "CTE: " << cte << " Steering Value: " << steer_value << "(" << step << ")" << std::endl;
+
+          step++;
+          // Output file
+          ofstream log_file;
+          log_file.open("pid_log_file.csv", ios::out | ios::app);
+          log_file << step << "\t" << cte  << std::endl;
+          log_file.close();
 
           json msgJson;
           msgJson["steering_angle"] = steer_value;
