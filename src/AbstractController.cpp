@@ -23,3 +23,7 @@ double AbstractController::UpdateSteer() {
 
   return -Kp * cte;
 }
+
+double AbstractController::TotalError() {
+}
+
