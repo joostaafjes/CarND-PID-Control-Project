@@ -50,10 +50,17 @@ The following has been adapted/customized to the Twiddle algorithm learned in th
 
 To be sure that every cycle was started with the same conditions, a reset had to be built in that could let the simulator use some time to go the start position (in combination with a 10 sec sleep)
 
+See below the result of 1 round in the simulator
+
+[![PID Controller with simulator](https://img.youtube.com/vi/fV79y79B4F0/0.jpg)](https://www.youtube.com/watch?v=fV79y79B4F0)
+
+fV79y79B4F0
+
 #### Discussion
 
 - Local minimum: it looks like the Twiddle algoritme is not diverting to the best solution but to a optimum that is relative. 
 - Delay: it looks like the delay in the simulator (that probably is related to vehicle characteristics) is causing issues.
+- The found solution doesn't look like a smooth and optimal solution. I assume improvement should be made (I haven't found them yet and looking forward to the next lessons :-)
 
 ---
 
