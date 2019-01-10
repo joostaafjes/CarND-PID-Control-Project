@@ -7,8 +7,6 @@ using namespace std;
 
 AbstractController::AbstractController() = default;
 
-//AbstractController::~AbstractController() = default;
-
 void AbstractController::UpdateError(double cte) {
   this->cte = cte;
 }

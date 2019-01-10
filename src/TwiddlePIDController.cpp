@@ -19,17 +19,14 @@ double TwiddlePIDController::UpdateSteer() {
 
   steps++;
   if (steps >= min_steps) {
-//    std::cout << "CTE:" << cte << ", cte_2_sum:" << cte_2_sum << "(" << steps << ")" << std::endl;
     cte_2_sum += pow(cte, 2);
   }
 
   double Termp = -param[0] * cte;
   double Termd = -param[1] * cte_diff;
   double Termi = -param[2] * cte_sum;
-//  std::cout << "P:" << Termp << ",D:" << Termd << ",I:" << Termi << std::endl;
 
   steer = Termp + Termd + Termi;
-//  steer = -param[0] * cte - param[1] * cte_diff - param[2] * cte_sum;
 
   return steer;
 }
@@ -44,9 +41,6 @@ bool TwiddlePIDController::UpdateParameters() {
   /*
    * Continue with current parameters
    */
-//  if (fabs(param[0]) + fabs(param[1]) + fabs(param[2]) < tolerance) {
-//    return true;
-//  }
 
   if (steps <= min_steps && cte < cte_error_threshold && steer >= steer_lower && steer <= steer_upper) {
     return true;
@@ -55,17 +49,13 @@ bool TwiddlePIDController::UpdateParameters() {
   /*
    * if error below threshold and current best...
    */
-//  if (cte < cte_error_threshold && cte_2_sum < best_error && steps < max_steps) {
   if (steps > min_steps && steps < max_steps) {
     /*
      * continue with next step
      */
-//    std:cout << "steps > min_steps && steps < max_steps" << std::endl;
     return true;
   }
 
-//  if (cte < cte_error_threshold && cte_2_sum < best_error && steps == max_steps) {
-//  if (cte_2_sum < best_error && steps == 2 * max_steps) {
   if (AvgError() < best_error) {
     /*
      * improvement
