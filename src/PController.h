@@ -6,7 +6,8 @@
 
 using namespace std;
 
-class PController: AbstractController {
+class PController: public AbstractController {
+ public:
   double UpdateSteer();
 };
 

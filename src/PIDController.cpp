@@ -13,3 +13,8 @@ double PIDController::UpdateSteer() {
   return -Kp * cte - Kd * cte_diff - Ki * cte_sum;
 }
 
+bool PIDController::UpdateParameters() {
+  return true;
+}
+
+void PIDController::InitParameters() {}

@@ -7,13 +7,7 @@ using namespace std;
 
 AbstractController::AbstractController() = default;
 
-AbstractController::~AbstractController() = default;
-
-void AbstractController::Init(double Kp, double Ki, double Kd) {
-  this->Kp = Kp;
-  this->Ki = Ki;
-  this->Kd = Kd;
-}
+//AbstractController::~AbstractController() = default;
 
 void AbstractController::UpdateError(double cte) {
   this->cte = cte;
@@ -22,8 +16,5 @@ void AbstractController::UpdateError(double cte) {
 double AbstractController::UpdateSteer() {
 
   return -Kp * cte;
-}
-
-double AbstractController::TotalError() {
 }
 

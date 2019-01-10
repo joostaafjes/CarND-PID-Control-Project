@@ -1,0 +1,275 @@
+test from him, twiddle
+
+/Users/joost/Projects/playground/carnd-pid-control-term2-p3/cmake-build-debug/pid
+Listening to port 4567
+Connected!!!
+Intermediate p[0] p[1] p[2]: 0.05 0.0001 1.5 Connected!!!
+iteration: 1 p_iterator: 0 p[0] p[1] p[2]: 0.06 0.0001 1.5 error: 0.286804 best_error: 0.286804 Best p[0] p[1] p[2]: 0.06 0.0001 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.06 0.0001 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.06 0.0002 1.5 Connected!!!
+iteration: 4 p_iterator: 1 p[0] p[1] p[2]: 0.06 0 1.5 error: 0.432598 best_error: 0.286804 Best p[0] p[1] p[2]: 0.06 0.0001 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.06 0.0001 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.06 0.0001 1.6 Connected!!!
+iteration: 7 p_iterator: 2 p[0] p[1] p[2]: 0.06 0.0001 1.4 error: 0.335902 best_error: 0.286804 Best p[0] p[1] p[2]: 0.06 0.0001 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.06 0.0001 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.071 0.0001 1.5 Connected!!!
+iteration: 10 p_iterator: 0 p[0] p[1] p[2]: 0.049 0.0001 1.5 error: 0.35512 best_error: 0.286804 Best p[0] p[1] p[2]: 0.06 0.0001 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.06 0.0001 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.06 0.00019 1.5 Connected!!!
+iteration: 13 p_iterator: 1 p[0] p[1] p[2]: 0.06 1e-05 1.5 error: 0.372087 best_error: 0.286804 Best p[0] p[1] p[2]: 0.06 0.0001 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.06 0.0001 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.06 0.0001 1.59 Connected!!!
+iteration: 16 p_iterator: 2 p[0] p[1] p[2]: 0.06 0.0001 1.41 error: 0.320027 best_error: 0.286804 Best p[0] p[1] p[2]: 0.06 0.0001 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.06 0.0001 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0699 0.0001 1.5 Connected!!!
+iteration: 19 p_iterator: 0 p[0] p[1] p[2]: 0.0501 0.0001 1.5 error: 0.348225 best_error: 0.286804 Best p[0] p[1] p[2]: 0.06 0.0001 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.06 0.0001 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.06 0.000181 1.5 Connected!!!
+iteration: 22 p_iterator: 1 p[0] p[1] p[2]: 0.06 1.9e-05 1.5 error: 0.40268 best_error: 0.286804 Best p[0] p[1] p[2]: 0.06 0.0001 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.06 0.0001 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.06 0.0001 1.581 Connected!!!
+iteration: 25 p_iterator: 2 p[0] p[1] p[2]: 0.06 0.0001 1.419 error: 0.330768 best_error: 0.286804 Best p[0] p[1] p[2]: 0.06 0.0001 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.06 0.0001 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.06891 0.0001 1.5 Connected!!!
+iteration: 28 p_iterator: 0 p[0] p[1] p[2]: 0.05109 0.0001 1.5 error: 0.315697 best_error: 0.286804 Best p[0] p[1] p[2]: 0.06 0.0001 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.06 0.0001 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.06 0.0001729 1.5 Connected!!!
+iteration: 31 p_iterator: 1 p[0] p[1] p[2]: 0.06 2.71e-05 1.5 error: 0.367289 best_error: 0.286804 Best p[0] p[1] p[2]: 0.06 0.0001 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.06 0.0001 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.06 0.0001 1.5729 Connected!!!
+iteration: 34 p_iterator: 2 p[0] p[1] p[2]: 0.06 0.0001 1.4271 error: 0.312159 best_error: 0.286804 Best p[0] p[1] p[2]: 0.06 0.0001 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.06 0.0001 1.5 Connected!!!
+iteration: 36 p_iterator: 0 p[0] p[1] p[2]: 0.068019 0.0001 1.5 error: 0.232168 best_error: 0.232168 Best p[0] p[1] p[2]: 0.068019 0.0001 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.068019 0.0001 1.5 Connected!!!
+iteration: 38 p_iterator: 1 p[0] p[1] p[2]: 0.068019 0.00016561 1.5 error: 0.210739 best_error: 0.210739 Best p[0] p[1] p[2]: 0.068019 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.068019 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.068019 0.00016561 1.56561 Connected!!!
+iteration: 41 p_iterator: 2 p[0] p[1] p[2]: 0.068019 0.00016561 1.43439 error: 0.34642 best_error: 0.210739 Best p[0] p[1] p[2]: 0.068019 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.068019 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0768399 0.00016561 1.5 Connected!!!
+iteration: 44 p_iterator: 0 p[0] p[1] p[2]: 0.0591981 0.00016561 1.5 error: 0.359042 best_error: 0.210739 Best p[0] p[1] p[2]: 0.068019 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.068019 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.068019 0.000237781 1.5 Connected!!!
+iteration: 47 p_iterator: 1 p[0] p[1] p[2]: 0.068019 9.3439e-05 1.5 error: 0.314133 best_error: 0.210739 Best p[0] p[1] p[2]: 0.068019 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.068019 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.068019 0.00016561 1.55905 Connected!!!
+iteration: 50 p_iterator: 2 p[0] p[1] p[2]: 0.068019 0.00016561 1.44095 error: 0.353853 best_error: 0.210739 Best p[0] p[1] p[2]: 0.068019 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.068019 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0759578 0.00016561 1.5 Connected!!!
+iteration: 53 p_iterator: 0 p[0] p[1] p[2]: 0.0600802 0.00016561 1.5 error: 0.361824 best_error: 0.210739 Best p[0] p[1] p[2]: 0.068019 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.068019 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.068019 0.000230564 1.5 Connected!!!
+iteration: 56 p_iterator: 1 p[0] p[1] p[2]: 0.068019 0.000100656 1.5 error: 0.316291 best_error: 0.210739 Best p[0] p[1] p[2]: 0.068019 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.068019 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.068019 0.00016561 1.55314 Connected!!!
+iteration: 59 p_iterator: 2 p[0] p[1] p[2]: 0.068019 0.00016561 1.44686 error: 0.348852 best_error: 0.210739 Best p[0] p[1] p[2]: 0.068019 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.068019 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0751639 0.00016561 1.5 Connected!!!
+iteration: 62 p_iterator: 0 p[0] p[1] p[2]: 0.0608741 0.00016561 1.5 error: 0.358176 best_error: 0.210739 Best p[0] p[1] p[2]: 0.068019 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.068019 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.068019 0.000224069 1.5 Connected!!!
+iteration: 65 p_iterator: 1 p[0] p[1] p[2]: 0.068019 0.000107151 1.5 error: 0.319147 best_error: 0.210739 Best p[0] p[1] p[2]: 0.068019 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.068019 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.068019 0.00016561 1.54783 Connected!!!
+iteration: 68 p_iterator: 2 p[0] p[1] p[2]: 0.068019 0.00016561 1.45217 error: 0.351722 best_error: 0.210739 Best p[0] p[1] p[2]: 0.068019 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.068019 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0744494 0.00016561 1.5 Connected!!!
+iteration: 71 p_iterator: 0 p[0] p[1] p[2]: 0.0615886 0.00016561 1.5 error: 0.372959 best_error: 0.210739 Best p[0] p[1] p[2]: 0.068019 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.068019 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.068019 0.000218223 1.5 Connected!!!
+iteration: 74 p_iterator: 1 p[0] p[1] p[2]: 0.068019 0.000112997 1.5 error: 0.325363 best_error: 0.210739 Best p[0] p[1] p[2]: 0.068019 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.068019 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.068019 0.00016561 1.54305 Connected!!!
+iteration: 77 p_iterator: 2 p[0] p[1] p[2]: 0.068019 0.00016561 1.45695 error: 0.356765 best_error: 0.210739 Best p[0] p[1] p[2]: 0.068019 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.068019 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0738064 0.00016561 1.5 Connected!!!
+iteration: 80 p_iterator: 0 p[0] p[1] p[2]: 0.0622316 0.00016561 1.5 error: 0.356916 best_error: 0.210739 Best p[0] p[1] p[2]: 0.068019 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.068019 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.068019 0.000212961 1.5 Connected!!!
+iteration: 83 p_iterator: 1 p[0] p[1] p[2]: 0.068019 0.000118259 1.5 error: 0.31561 best_error: 0.210739 Best p[0] p[1] p[2]: 0.068019 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.068019 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.068019 0.00016561 1.53874 Connected!!!
+iteration: 86 p_iterator: 2 p[0] p[1] p[2]: 0.068019 0.00016561 1.46126 error: 0.323142 best_error: 0.210739 Best p[0] p[1] p[2]: 0.068019 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.068019 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0732277 0.00016561 1.5 Connected!!!
+iteration: 89 p_iterator: 0 p[0] p[1] p[2]: 0.0628103 0.00016561 1.5 error: 0.344748 best_error: 0.210739 Best p[0] p[1] p[2]: 0.068019 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.068019 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.068019 0.000208226 1.5 Connected!!!
+iteration: 92 p_iterator: 1 p[0] p[1] p[2]: 0.068019 0.000122994 1.5 error: 0.301047 best_error: 0.210739 Best p[0] p[1] p[2]: 0.068019 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.068019 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.068019 0.00016561 1.53487 Connected!!!
+iteration: 95 p_iterator: 2 p[0] p[1] p[2]: 0.068019 0.00016561 1.46513 error: 0.321815 best_error: 0.210739 Best p[0] p[1] p[2]: 0.068019 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.068019 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0727068 0.00016561 1.5 Connected!!!
+iteration: 98 p_iterator: 0 p[0] p[1] p[2]: 0.0633312 0.00016561 1.5 error: 0.337964 best_error: 0.210739 Best p[0] p[1] p[2]: 0.068019 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.068019 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.068019 0.000203965 1.5 Connected!!!
+iteration: 101 p_iterator: 1 p[0] p[1] p[2]: 0.068019 0.000127255 1.5 error: 0.289757 best_error: 0.210739 Best p[0] p[1] p[2]: 0.068019 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.068019 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.068019 0.00016561 1.53138 Connected!!!
+iteration: 104 p_iterator: 2 p[0] p[1] p[2]: 0.068019 0.00016561 1.46862 error: 0.284515 best_error: 0.210739 Best p[0] p[1] p[2]: 0.068019 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.068019 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.072238 0.00016561 1.5 Connected!!!
+iteration: 107 p_iterator: 0 p[0] p[1] p[2]: 0.0638 0.00016561 1.5 error: 0.199036 best_error: 0.199036 Best p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.000200129 1.5 Connected!!!
+iteration: 110 p_iterator: 1 p[0] p[1] p[2]: 0.0638 0.000131091 1.5 error: 0.262307 best_error: 0.199036 Best p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.00016561 1.52824 Connected!!!
+iteration: 113 p_iterator: 2 p[0] p[1] p[2]: 0.0638 0.00016561 1.47176 error: 0.284714 best_error: 0.199036 Best p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0684409 0.00016561 1.5 Connected!!!
+iteration: 116 p_iterator: 0 p[0] p[1] p[2]: 0.0591591 0.00016561 1.5 error: 0.298076 best_error: 0.199036 Best p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.000196677 1.5 Connected!!!
+iteration: 119 p_iterator: 1 p[0] p[1] p[2]: 0.0638 0.000134543 1.5 error: 0.263157 best_error: 0.199036 Best p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.00016561 1.52542 Connected!!!
+iteration: 122 p_iterator: 2 p[0] p[1] p[2]: 0.0638 0.00016561 1.47458 error: 0.265133 best_error: 0.199036 Best p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0679768 0.00016561 1.5 Connected!!!
+iteration: 125 p_iterator: 0 p[0] p[1] p[2]: 0.0596232 0.00016561 1.5 error: 0.278943 best_error: 0.199036 Best p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.000193571 1.5 Connected!!!
+iteration: 128 p_iterator: 1 p[0] p[1] p[2]: 0.0638 0.000137649 1.5 error: 0.267089 best_error: 0.199036 Best p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.00016561 1.52288 Connected!!!
+iteration: 131 p_iterator: 2 p[0] p[1] p[2]: 0.0638 0.00016561 1.47712 error: 0.26426 best_error: 0.199036 Best p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0675591 0.00016561 1.5 Connected!!!
+iteration: 134 p_iterator: 0 p[0] p[1] p[2]: 0.0600409 0.00016561 1.5 error: 0.271483 best_error: 0.199036 Best p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.000190774 1.5 Connected!!!
+iteration: 137 p_iterator: 1 p[0] p[1] p[2]: 0.0638 0.000140446 1.5 error: 0.250204 best_error: 0.199036 Best p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.00016561 1.52059 Connected!!!
+iteration: 140 p_iterator: 2 p[0] p[1] p[2]: 0.0638 0.00016561 1.47941 error: 0.260407 best_error: 0.199036 Best p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0671832 0.00016561 1.5 Connected!!!
+iteration: 143 p_iterator: 0 p[0] p[1] p[2]: 0.0604168 0.00016561 1.5 error: 0.267782 best_error: 0.199036 Best p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.000188258 1.5 Connected!!!
+iteration: 146 p_iterator: 1 p[0] p[1] p[2]: 0.0638 0.000142962 1.5 error: 0.258688 best_error: 0.199036 Best p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.00016561 1.51853 Connected!!!
+iteration: 149 p_iterator: 2 p[0] p[1] p[2]: 0.0638 0.00016561 1.48147 error: 0.26153 best_error: 0.199036 Best p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0668449 0.00016561 1.5 Connected!!!
+iteration: 152 p_iterator: 0 p[0] p[1] p[2]: 0.0607551 0.00016561 1.5 error: 0.261497 best_error: 0.199036 Best p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.000185993 1.5 Connected!!!
+iteration: 155 p_iterator: 1 p[0] p[1] p[2]: 0.0638 0.000145227 1.5 error: 0.242874 best_error: 0.199036 Best p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.00016561 1.51668 Connected!!!
+iteration: 158 p_iterator: 2 p[0] p[1] p[2]: 0.0638 0.00016561 1.48332 error: 0.238817 best_error: 0.199036 Best p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0665404 0.00016561 1.5 Connected!!!
+iteration: 161 p_iterator: 0 p[0] p[1] p[2]: 0.0610596 0.00016561 1.5 error: 0.255177 best_error: 0.199036 Best p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.000183955 1.5 Connected!!!
+iteration: 164 p_iterator: 1 p[0] p[1] p[2]: 0.0638 0.000147265 1.5 error: 0.230843 best_error: 0.199036 Best p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.00016561 1.51501 Connected!!!
+iteration: 167 p_iterator: 2 p[0] p[1] p[2]: 0.0638 0.00016561 1.48499 error: 0.246648 best_error: 0.199036 Best p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0662664 0.00016561 1.5 Connected!!!
+iteration: 170 p_iterator: 0 p[0] p[1] p[2]: 0.0613336 0.00016561 1.5 error: 0.246273 best_error: 0.199036 Best p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.00018212 1.5 Connected!!!
+iteration: 173 p_iterator: 1 p[0] p[1] p[2]: 0.0638 0.0001491 1.5 error: 0.236888 best_error: 0.199036 Best p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.00016561 1.51351 Connected!!!
+iteration: 176 p_iterator: 2 p[0] p[1] p[2]: 0.0638 0.00016561 1.48649 error: 0.234215 best_error: 0.199036 Best p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0660197 0.00016561 1.5 Connected!!!
+iteration: 179 p_iterator: 0 p[0] p[1] p[2]: 0.0615803 0.00016561 1.5 error: 0.243306 best_error: 0.199036 Best p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.000180469 1.5 Connected!!!
+iteration: 182 p_iterator: 1 p[0] p[1] p[2]: 0.0638 0.000150751 1.5 error: 0.245116 best_error: 0.199036 Best p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.00016561 1.51216 Connected!!!
+iteration: 185 p_iterator: 2 p[0] p[1] p[2]: 0.0638 0.00016561 1.48784 error: 0.233846 best_error: 0.199036 Best p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0657978 0.00016561 1.5 Connected!!!
+iteration: 188 p_iterator: 0 p[0] p[1] p[2]: 0.0618022 0.00016561 1.5 error: 0.244649 best_error: 0.199036 Best p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.000178983 1.5 Connected!!!
+iteration: 191 p_iterator: 1 p[0] p[1] p[2]: 0.0638 0.000152237 1.5 error: 0.232877 best_error: 0.199036 Best p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.00016561 1.51094 Connected!!!
+iteration: 194 p_iterator: 2 p[0] p[1] p[2]: 0.0638 0.00016561 1.48906 error: 0.241468 best_error: 0.199036 Best p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.065598 0.00016561 1.5 Connected!!!
+iteration: 197 p_iterator: 0 p[0] p[1] p[2]: 0.062002 0.00016561 1.5 error: 0.242187 best_error: 0.199036 Best p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.000177646 1.5 Connected!!!
+iteration: 200 p_iterator: 1 p[0] p[1] p[2]: 0.0638 0.000153574 1.5 error: 0.231058 best_error: 0.199036 Best p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.00016561 1.50985 Connected!!!
+iteration: 203 p_iterator: 2 p[0] p[1] p[2]: 0.0638 0.00016561 1.49015 error: 0.235588 best_error: 0.199036 Best p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0654182 0.00016561 1.5 Connected!!!
+iteration: 206 p_iterator: 0 p[0] p[1] p[2]: 0.0621818 0.00016561 1.5 error: 0.258105 best_error: 0.199036 Best p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.000176442 1.5 Connected!!!
+iteration: 209 p_iterator: 1 p[0] p[1] p[2]: 0.0638 0.000154778 1.5 error: 0.230059 best_error: 0.199036 Best p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.00016561 1.50886 Connected!!!
+iteration: 212 p_iterator: 2 p[0] p[1] p[2]: 0.0638 0.00016561 1.49114 error: 0.243208 best_error: 0.199036 Best p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0652564 0.00016561 1.5 Connected!!!
+iteration: 215 p_iterator: 0 p[0] p[1] p[2]: 0.0623436 0.00016561 1.5 error: 0.26594 best_error: 0.199036 Best p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.000175359 1.5 Connected!!!
+iteration: 218 p_iterator: 1 p[0] p[1] p[2]: 0.0638 0.000155861 1.5 error: 25.4419 best_error: 0.199036 Best p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.00016561 1.50798 Connected!!!
+iteration: 221 p_iterator: 2 p[0] p[1] p[2]: 0.0638 0.00016561 1.49202 error: 25.7928 best_error: 0.199036 Best p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0651107 0.00016561 1.5 Connected!!!
+iteration: 224 p_iterator: 0 p[0] p[1] p[2]: 0.0624893 0.00016561 1.5 error: 20.5957 best_error: 0.199036 Best p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.000174384 1.5 Connected!!!
+iteration: 227 p_iterator: 1 p[0] p[1] p[2]: 0.0638 0.000156836 1.5 error: 0.261794 best_error: 0.199036 Best p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.00016561 1.50718 Connected!!!
+iteration: 230 p_iterator: 2 p[0] p[1] p[2]: 0.0638 0.00016561 1.49282 error: 0.231811 best_error: 0.199036 Best p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0638 0.00016561 1.5 Connected!!!
+iteration: 232 p_iterator: 0 p[0] p[1] p[2]: 0.0649796 0.00016561 1.5 error: 0.194502 best_error: 0.194502 Best p[0] p[1] p[2]: 0.0649796 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0649796 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0649796 0.000173507 1.5 Connected!!!
+iteration: 235 p_iterator: 1 p[0] p[1] p[2]: 0.0649796 0.000157713 1.5 error: 0.235755 best_error: 0.194502 Best p[0] p[1] p[2]: 0.0649796 0.00016561 1.5 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0649796 0.00016561 1.5 Connected!!!
+iteration: 237 p_iterator: 2 p[0] p[1] p[2]: 0.0649796 0.00016561 1.50646 error: 0.169756 best_error: 0.169756 Best p[0] p[1] p[2]: 0.0649796 0.00016561 1.50646 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0649796 0.00016561 1.50646 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0662773 0.00016561 1.50646 Connected!!!
+iteration: 240 p_iterator: 0 p[0] p[1] p[2]: 0.063682 0.00016561 1.50646 error: 0.241358 best_error: 0.169756 Best p[0] p[1] p[2]: 0.0649796 0.00016561 1.50646 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0649796 0.00016561 1.50646 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0649796 0.000172717 1.50646 Connected!!!
+iteration: 243 p_iterator: 1 p[0] p[1] p[2]: 0.0649796 0.000158503 1.50646 error: 0.242018 best_error: 0.169756 Best p[0] p[1] p[2]: 0.0649796 0.00016561 1.50646 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0649796 0.00016561 1.50646 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0649796 0.00016561 1.51357 Connected!!!
+iteration: 246 p_iterator: 2 p[0] p[1] p[2]: 0.0649796 0.00016561 1.49935 error: 18.5964 best_error: 0.169756 Best p[0] p[1] p[2]: 0.0649796 0.00016561 1.50646 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0649796 0.00016561 1.50646 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0661475 0.00016561 1.50646 Connected!!!
+iteration: 249 p_iterator: 0 p[0] p[1] p[2]: 0.0638118 0.00016561 1.50646 error: 23.507 best_error: 0.169756 Best p[0] p[1] p[2]: 0.0649796 0.00016561 1.50646 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0649796 0.00016561 1.50646 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0649796 0.000172006 1.50646 Connected!!!
+iteration: 252 p_iterator: 1 p[0] p[1] p[2]: 0.0649796 0.000159214 1.50646 error: 23.8125 best_error: 0.169756 Best p[0] p[1] p[2]: 0.0649796 0.00016561 1.50646 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0649796 0.00016561 1.50646 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0649796 0.00016561 1.51286 Connected!!!
+iteration: 255 p_iterator: 2 p[0] p[1] p[2]: 0.0649796 0.00016561 1.50006 error: 25.6319 best_error: 0.169756 Best p[0] p[1] p[2]: 0.0649796 0.00016561 1.50646 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0649796 0.00016561 1.50646 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0660307 0.00016561 1.50646 Connected!!!
+iteration: 258 p_iterator: 0 p[0] p[1] p[2]: 0.0639286 0.00016561 1.50646 error: 25.9213 best_error: 0.169756 Best p[0] p[1] p[2]: 0.0649796 0.00016561 1.50646 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0649796 0.00016561 1.50646 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0649796 0.000171367 1.50646 Connected!!!
+iteration: 261 p_iterator: 1 p[0] p[1] p[2]: 0.0649796 0.000159853 1.50646 error: 45.4882 best_error: 0.169756 Best p[0] p[1] p[2]: 0.0649796 0.00016561 1.50646 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0649796 0.00016561 1.50646 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0649796 0.00016561 1.51222 Connected!!!
+iteration: 264 p_iterator: 2 p[0] p[1] p[2]: 0.0649796 0.00016561 1.5007 error: 29.8855 best_error: 0.169756 Best p[0] p[1] p[2]: 0.0649796 0.00016561 1.50646 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0649796 0.00016561 1.50646 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0659256 0.00016561 1.50646 Connected!!!
+iteration: 267 p_iterator: 0 p[0] p[1] p[2]: 0.0640337 0.00016561 1.50646 error: 26.3361 best_error: 0.169756 Best p[0] p[1] p[2]: 0.0649796 0.00016561 1.50646 Connected!!!
+Intermediate p[0] p[1] p[2]: 0.0649796 0.00016561 1.50646 Connected!!!
+

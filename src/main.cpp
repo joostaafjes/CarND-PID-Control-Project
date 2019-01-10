@@ -1,6 +1,10 @@
 #include <uWS/uWS.h>
 #include <iostream>
 #include "json.hpp"
+#include "TwiddlePIDController.h"
+#include "PIDController.h"
+#include "PController.h"
+#include "PDController.h"
 #include "PIDController.h"
 #include <math.h>
 #include <fstream>
@@ -37,8 +41,25 @@ int main()
 //  PController controller;
 //  PDController controller;
   PIDController controller;
+//  TwiddlePIDController controller;
   // TODO: Initialize the controller variable.
-  controller.Init(0.2, 0.00004, 3.0);
+//  controller.Init(0.0372526, 0, 0); // Best P only: 0.0372526 and dP 0.01
+//  controller.Init(0.0372526, 1.5, 0);
+//  controller.Init(0.05, 1.5, 0);
+//  controller.Init(0.05, 0.0001, 1.5); // -> quite ok with PID controller, vlieg uit de bocht in 2de bocht na brug
+//  controller.Init(0.0372526, 0.0001, 1.5); // minder goed
+//  controller.Init(0.06, 0.00031, 1.29); // oplossing na twiddle: gaat eindeloos door na toevoegen logging...weird
+//  controller.Init(0.071, 0.00031, 1.28991); // found my twiddle value :3rd improvement)
+  controller.Init(0.0736962, 0.000122645, 1.43243); // found with my twiddle (see log) starting with 0.05, 0.0001 and 1.5
+//  controller.Init(0.2, 3.0, 0.0004);
+//  controller.Init(0.04, 0.0, 0.0);
+//  controller.Init(0.05, 1.5,  0.0001);
+//  controller.Init(7.59992, 16.5795, 0.00004);
+//  controller.Init(0.0, 0.0, 0.0);
+//  controller.Init(1.0, 1.0, 1.0);
+//  controller.Init(2.78547, 18.5277, 0.0339935);
+//  controller.Init(0.2, 0.0, 0.0);
+  controller.InitParameters();
 
   h.onMessage([&controller, &step](uWS::WebSocket<uWS::SERVER> ws, char *data, size_t length, uWS::OpCode opCode) {
     // "42" at the start of the message means there's a websocket message event.
@@ -65,22 +86,45 @@ int main()
           */
           controller.UpdateError(cte);
           steer_value = controller.UpdateSteer();
-          
+
           // DEBUG
-          std::cout << "CTE: " << cte << " Steering Value: " << steer_value << "(" << step << ")" << std::endl;
+//          std::cout << "CTE: " << cte << " Steering Value: " << steer_value  << " Avg Error: " << controller.AvgError() << " (" << controller.steps << ")" << std::endl;
+//          std::cout << "Angle before:" <<  angle << std::endl;
+          std::cout << "CTE: " << cte << " Steering Value: " << steer_value << " Throttle Value: 0.3" << " Count: 0" << std::endl;
 
-          step++;
-          // Output file
-          ofstream log_file;
-          log_file.open("pid_log_file.csv", ios::out | ios::app);
-          log_file << step << "\t" << cte  << std::endl;
-          log_file.close();
+          std::string msg = "";
+          if (controller.UpdateParameters()) {
+            step++;
+            // Output file
+//            ofstream log_file;
+//            log_file.open("pid_log_file.csv", ios::out | ios::app);
+//            log_file << step << "\t" << cte << std::endl;
+//            log_file.close();
 
-          json msgJson;
-          msgJson["steering_angle"] = steer_value;
-          msgJson["throttle"] = 0.3;
-          auto msg = "42[\"steer\"," + msgJson.dump() + "]";
-          std::cout << msg << std::endl;
+            json msgJson;
+            msgJson["steering_angle"] = steer_value;
+            msgJson["throttle"] = 0.3; // 0.3;
+            msg = "42[\"steer\"," + msgJson.dump() + "]";
+//            std::cout << msg << std::endl;
+          } else {
+//            msg = "42[\"steer\",{\"steering_angle\":0.00,\"throttle\":0.0}]";
+//            std::cout << msg << std::endl;
+//            ws.send(msg.data(), msg.length(), uWS::OpCode::TEXT);
+//            sleep(10);
+            // reset
+            msg = "42[\"reset\",{}]";
+            std::cout << msg << std::endl;
+            ws.send(msg.data(), msg.length(), uWS::OpCode::TEXT);
+            sleep(10);
+            // tmp
+            if (controller.iterations > 1000) {
+              std::cout << "Close!" << std::endl;
+              ws.close();
+            } else {
+              std::cout << "Start iteration:" << controller.iterations << "..." << std::endl;
+            }
+            msg = "42[\"steer\",{\"steering_angle\":0.00,\"throttle\":0.0}]";
+          }
           ws.send(msg.data(), msg.length(), uWS::OpCode::TEXT);
         }
       } else {
@@ -107,7 +151,7 @@ int main()
   });
 
   h.onConnection([&h](uWS::WebSocket<uWS::SERVER> ws, uWS::HttpRequest req) {
-    std::cout << "Connected!!!" << std::endl;
+//    std::cout << "Connected!!!" << std::endl;
   });
 
   h.onDisconnection([&h](uWS::WebSocket<uWS::SERVER> ws, int code, char *message, size_t length) {

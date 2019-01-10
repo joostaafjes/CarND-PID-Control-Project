@@ -3,6 +3,60 @@ Self-Driving Car Engineer Nanodegree Program
 
 ---
 
+## Reflection
+
+### Description P, I and D components
+
+PID (Proportional Integral Derivative) controller is a way of controlling a process with a specific setpoint that should be reached as smoothly as possible. Below the P, I and D factors are described.
+
+#### Proportional (P)
+
+The P term is the most direct parameter that is proportional to the error (difference between current position and desired position). By only using this parameter the controller is generally not diverting to the target but is either not reaching the target or by overshooting.
+
+#### Integral (I)
+
+The integral terms integrate the differences the errors over the past and this causes a smoothing effect and can correct structural errors in the vehicle.
+
+#### Derivative (D)
+
+The derivative term is related to the derivative of the error and smoothen rappid changes.
+
+### Hyperparameter optimization
+
+I have used the following approach to optimize the parameters.
+
+#### Determine initial values for Twiddle
+
+I have used Twiddle to determine the parameters one by one:
+1. First use Twiddle to determine P with the PController: P -> 0.0372526
+2. Use Twiddle to determine the best D with this P: D -> 1.5
+3. Use Twiddle to determine the best I with these P and D: I -> 0.0001
+
+With these manual tuning the vehicle was able to drive about 1/2 a round
+
+#### Use Twiddle to optimize parameters
+
+After these I used Twiddle to optimize this. The parameter in the previous section were used as initial values.
+
+After 100 iterations the following optimized parameters were achieved:
+- P: 0.0736962
+- D: 1.43243
+- I: 0.000122645
+
+The following has been adapted/customized to the Twiddle algorithm learned in the lesson:
+- The number of steps were increased to 600
+- To save time during learning maximum steering angle was introduced. If exceeded, the cycle was aborted.
+- To save time during learning maximum CTE error was introduced. If exceeded, the cycle was aborted.
+
+To be sure that every cycle was started with the same conditions, a reset had to be built in that could let the simulator use some time to go the start position (in combination with a 10 sec sleep)
+
+#### Discussion
+
+- Local minimum: it looks like the Twiddle algoritme is not diverting to the best solution but to a optimum that is relative. 
+- Delay: it looks like the delay in the simulator (that probably is related to vehicle characteristics) is causing issues.
+
+---
+
 ## Dependencies
 
 * cmake >= 3.5

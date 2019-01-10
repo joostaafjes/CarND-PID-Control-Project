@@ -13,7 +13,7 @@ using namespace std;
 class AbstractController {
 
  protected:
-  double cte;
+  double cte = 0.0;
 
  public:
   /*
@@ -30,6 +30,8 @@ class AbstractController {
   double Ki;
   double Kd;
 
+  int iterations = 0;
+
   /*
   * Constructor
   */
@@ -38,12 +40,16 @@ class AbstractController {
   /*
   * Destructor.
   */
-  virtual ~AbstractController();
+//  virtual ~AbstractController();
 
   /*
   * Initialize PController.
   */
-  virtual void Init(double Kp, double Ki, double Kd);
+  void Init(double Kp, double Ki, double Kd) {
+    this->Kp = Kp;
+    this->Kd = Kd;
+    this->Ki = Ki;
+  }
 
   /*
   * Update the PController error variables given cross track error.
@@ -52,10 +58,19 @@ class AbstractController {
 
   double UpdateSteer();
 
+  void InitParameters() {
+  }
+
+  bool UpdateParameters() {
+    return true;
+  };
+
   /*
   * Calculate the total PController error.
   */
-  virtual double TotalError();
+  double TotalError() {
+    return 0;
+  }
 };
 
 #endif //PID_ABSTRACTCONTROLLER_H
